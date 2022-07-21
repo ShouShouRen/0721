@@ -58,6 +58,32 @@
     font-size: 42px;
 }
 
+.round4{
+    border-radius: 16px;
+}
+.round5{
+    border-radius: 20px;
+}
+.round6{
+    border-radius: 24px;
+}
+.round7{
+    border-radius: 28px;
+}
+.round8{
+    border-radius: 32px;
+}
+.round9{
+    border-radius: 36px;
+}
+.round10{
+    border-radius: 40px;
+}
+.round11{
+    border-radius: 44px;
+}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -70,6 +96,30 @@ ul li a {
 
 .navbar-light {
     .navbar-nav {
+        &::before{
+            content: "";
+            display: block;
+            width: 40px;
+            height: 10px;
+            background-color: #fa0;
+            transform: rotate(-45deg);
+            position: absolute;
+            top: 0;
+            left: -10px;
+            border-radius: 8px;
+        }
+        &::after{
+            content: "";
+            display: block;
+            width: 40px;
+            height: 10px;
+            background-color: #fa0;
+            transform: rotate(45deg);
+            position: absolute;
+            top: 0;
+            right: -35px;
+            border-radius: 8px;
+        }
         .nav-item {
             margin-left: 32px;
         }
