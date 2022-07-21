@@ -117,6 +117,10 @@
   background-color: rgba(0, 0, 0, 0.55);
 }
 
+.bg-about {
+  background-color: #fcfeee;
+}
+
 .theme-bg-color {
   background-color: #a80000 !important;
 }
@@ -153,6 +157,11 @@
           box-sizing: border-box;
   font-family: 'Noto Sans TC', sans-serif;
   position: relative;
+}
+
+nav {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 ul li a {

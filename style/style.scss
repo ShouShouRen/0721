@@ -7,7 +7,9 @@
     font-family: 'Noto Sans TC', sans-serif;
     position: relative;
 }
-
+nav{
+    transition: all .5s ease;
+}
 ul li a {
     color: #efefee;
     transition: all .3s !important;
