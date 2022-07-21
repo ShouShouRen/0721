@@ -319,7 +319,6 @@ p {
   transition: all .5s ease;
   -webkit-box-shadow: -2px -2px 8px #d8d8d8;
           box-shadow: -2px -2px 8px #d8d8d8;
-  background-image: url("../img/A-1.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -327,5 +326,17 @@ p {
 #about .raised-block:hover {
   -webkit-box-shadow: -5px -10px 15px #a4a4a4;
           box-shadow: -5px -10px 15px #a4a4a4;
+}
+
+.fa-circle-up {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  font-size: 48px;
+  color: #e04;
+}
+
+.fa-circle-up:hover {
+  color: #fa0;
 }
 /*# sourceMappingURL=style.css.map */
