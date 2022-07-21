@@ -186,6 +186,15 @@ p {
 .carousel-item .carousel-caption.item-2 {
   inset: 0;
   top: 20em;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  height: 45vh;
+}
+
+.carousel-item .carousel-caption.item-3 {
+  inset: 0;
+  top: 20em;
   left: 45%;
 }
 

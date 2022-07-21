@@ -12,7 +12,8 @@ ul li a {
     color: #efefee;
     transition: all .3s !important;
 }
-p{
+
+p {
     letter-spacing: 6px;
     line-height: 1.6em;
 }
@@ -34,6 +35,15 @@ p{
         }
 
         &.item-2 {
+            inset: 0;
+            top: 20em;
+            right: 15%;
+            bottom: 1.25rem;
+            left: 15%;
+            height: 45vh;
+        }
+
+        &.item-3 {
             inset: 0;
             top: 20em;
             left: 45%;
