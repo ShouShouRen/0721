@@ -4,5 +4,103 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Noto Sans TC', sans-serif;
+  position: relative;
+}
+
+.fz-18 {
+  font-size: 18px;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.fz-22 {
+  font-size: 22px;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+.fz-26 {
+  font-size: 26px;
+}
+
+.fz-28 {
+  font-size: 28px;
+}
+
+.fz-30 {
+  font-size: 30px;
+}
+
+.fz-32 {
+  font-size: 32px;
+}
+
+.fz-34 {
+  font-size: 34px;
+}
+
+.fz-36 {
+  font-size: 36px;
+}
+
+.fz-38 {
+  font-size: 38px;
+}
+
+.fz-40 {
+  font-size: 40px;
+}
+
+.fz-42 {
+  font-size: 42px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ul li a {
+  color: #efefee;
+  -webkit-transition: all .3s !important;
+  transition: all .3s !important;
+}
+
+.navbar-light {
+  background-color: #a80000 !important;
+}
+
+.navbar-light .navbar-nav .nav-item {
+  margin-left: 32px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #efefee !important;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fa0 !important;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
