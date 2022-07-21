@@ -1,3 +1,5 @@
+@import "_var.scss", "_utilities.scss";
+
 * {
     padding: 0;
     margin: 0;
@@ -6,132 +8,35 @@
     position: relative;
 }
 
-.fz-18 {
-    font-size: 18px;
-}
-
-.fz-20 {
-    font-size: 20px;
-}
-
-.fz-22 {
-    font-size: 22px;
-}
-
-.fz-24 {
-    font-size: 24px;
-}
-
-.fz-26 {
-    font-size: 26px;
-}
-
-.fz-28 {
-    font-size: 28px;
-}
-
-.fz-30 {
-    font-size: 30px;
-}
-
-.fz-32 {
-    font-size: 32px;
-}
-
-.fz-34 {
-    font-size: 34px;
-}
-
-.fz-36 {
-    font-size: 36px;
-}
-
-.fz-38 {
-    font-size: 38px;
-}
-
-.fz-40 {
-    font-size: 40px;
-}
-
-.fz-42 {
-    font-size: 42px;
-}
-
-.round4{
-    border-radius: 16px;
-}
-.round5{
-    border-radius: 20px;
-}
-.round6{
-    border-radius: 24px;
-}
-.round7{
-    border-radius: 28px;
-}
-.round8{
-    border-radius: 32px;
-}
-.round9{
-    border-radius: 36px;
-}
-.round10{
-    border-radius: 40px;
-}
-.round11{
-    border-radius: 44px;
-}
-
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.hero{
-    
-}
-
-.carousel-item{
-    height: 100vh;
-}
-
-// img{
-//     width: 100%;
-// }
-
 ul li a {
     color: #efefee;
     transition: all .3s !important;
 }
 
+
+.carousel-item {
+    height: 100vh;
+
+    .carousel-caption {
+        top: calc(50vh - 6em);
+        width: 40vw;
+        height: 30vh;
+
+        .move_title {
+            text-shadow: 10px 10px 10px #4d4b4b;
+        }
+
+        .move_para {
+            text-shadow: 15px 10px 10px #4d4b4b;
+        }
+    }
+}
+
+
+
+
 .navbar-light {
     .navbar-nav {
-        &::before{
-            content: "";
-            display: block;
-            width: 40px;
-            height: 10px;
-            background-color: #fa0;
-            transform: rotate(-45deg);
-            position: absolute;
-            top: 0;
-            left: -10px;
-            border-radius: 8px;
-        }
-        &::after{
-            content: "";
-            display: block;
-            width: 40px;
-            height: 10px;
-            background-color: #fa0;
-            transform: rotate(45deg);
-            position: absolute;
-            top: 0;
-            right: -35px;
-            border-radius: 8px;
-        }
         .nav-item {
             margin-left: 32px;
         }
@@ -161,8 +66,4 @@ ul li a {
             }
         }
     }
-}
-
-.theme-bg-color {
-    background-color: #a80000 !important;
 }

@@ -1,0 +1,130 @@
+.fz-18 {
+    font-size: 18px;
+}
+
+.fz-20 {
+    font-size: 20px;
+}
+
+.fz-22 {
+    font-size: 22px;
+}
+
+.fz-24 {
+    font-size: 24px;
+}
+
+.fz-26 {
+    font-size: 26px;
+}
+
+.fz-28 {
+    font-size: 28px;
+}
+
+.fz-30 {
+    font-size: 30px;
+}
+
+.fz-32 {
+    font-size: 32px;
+}
+
+.fz-34 {
+    font-size: 34px;
+}
+
+.fz-36 {
+    font-size: 36px;
+}
+
+.fz-38 {
+    font-size: 38px;
+}
+
+.fz-40 {
+    font-size: 40px;
+}
+
+.fz-42 {
+    font-size: 42px;
+}
+
+.fz-44 {
+    font-size: 44px;
+}
+
+.fz-46 {
+    font-size: 46px;
+}
+
+.fz-48 {
+    font-size: 48px;
+}
+
+.fz-52 {
+    font-size: 52px;
+}
+
+.round4 {
+    border-radius: 16px;
+}
+
+.round5 {
+    border-radius: 20px;
+}
+
+.round6 {
+    border-radius: 24px;
+}
+
+.round7 {
+    border-radius: 28px;
+}
+
+.round8 {
+    border-radius: 32px;
+}
+
+.round9 {
+    border-radius: 36px;
+}
+
+.round10 {
+    border-radius: 40px;
+}
+
+.round11 {
+    border-radius: 44px;
+}
+
+.bg-grey {
+    background-color: #CFD2CF;
+}
+
+.bg-fileter {
+    backdrop-filter: blur(10px);
+}
+
+.theme-bg-color {
+    background-color: #a80000 !important;
+}
+
+.text-green {
+    color: #9bffee;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    padding-top: 140px;
+    padding-bottom: 140px;
+
+    @media(max-width: 768px) {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}

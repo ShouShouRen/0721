@@ -1,10 +1,7 @@
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Noto Sans TC', sans-serif;
-  position: relative;
+:root {
+  --animate-duration: 1.5s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
 }
 
 .fz-18 {
@@ -59,6 +56,22 @@
   font-size: 42px;
 }
 
+.fz-44 {
+  font-size: 44px;
+}
+
+.fz-46 {
+  font-size: 46px;
+}
+
+.fz-48 {
+  font-size: 48px;
+}
+
+.fz-52 {
+  font-size: 52px;
+}
+
 .round4 {
   border-radius: 16px;
 }
@@ -91,13 +104,47 @@
   border-radius: 44px;
 }
 
+.bg-grey {
+  background-color: #CFD2CF;
+}
+
+.bg-fileter {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.theme-bg-color {
+  background-color: #a80000 !important;
+}
+
+.text-green {
+  color: #9bffee;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.carousel-item {
-  height: 100vh;
+.hero {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+  position: relative;
 }
 
 ul li a {
@@ -106,32 +153,22 @@ ul li a {
   transition: all .3s !important;
 }
 
-.navbar-light .navbar-nav::before {
-  content: "";
-  display: block;
-  width: 40px;
-  height: 10px;
-  background-color: #fa0;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  position: absolute;
-  top: 0;
-  left: -10px;
-  border-radius: 8px;
+.carousel-item {
+  height: 100vh;
 }
 
-.navbar-light .navbar-nav::after {
-  content: "";
-  display: block;
-  width: 40px;
-  height: 10px;
-  background-color: #fa0;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  position: absolute;
-  top: 0;
-  right: -35px;
-  border-radius: 8px;
+.carousel-item .carousel-caption {
+  top: calc(50vh - 6em);
+  width: 40vw;
+  height: 30vh;
+}
+
+.carousel-item .carousel-caption .move_title {
+  text-shadow: 10px 10px 10px #4d4b4b;
+}
+
+.carousel-item .carousel-caption .move_para {
+  text-shadow: 15px 10px 10px #4d4b4b;
 }
 
 .navbar-light .navbar-nav .nav-item {
@@ -162,9 +199,5 @@ ul li a {
 
 .navbar-light .navbar-nav .nav-link:hover::after {
   width: 100%;
-}
-
-.theme-bg-color {
-  background-color: #a80000 !important;
 }
 /*# sourceMappingURL=style.css.map */
