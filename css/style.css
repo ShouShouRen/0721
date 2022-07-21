@@ -70,10 +70,6 @@ ul li a {
   transition: all .3s !important;
 }
 
-.navbar-light {
-  background-color: #a80000 !important;
-}
-
 .navbar-light .navbar-nav .nav-item {
   margin-left: 32px;
 }
@@ -102,5 +98,9 @@ ul li a {
 
 .navbar-light .navbar-nav .nav-link:hover::after {
   width: 100%;
+}
+
+.theme-bg-color {
+  background-color: #a80000 !important;
 }
 /*# sourceMappingURL=style.css.map */

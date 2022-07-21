@@ -69,8 +69,6 @@ ul li a {
 }
 
 .navbar-light {
-    background-color: #a80000 !important;
-
     .navbar-nav {
         .nav-item {
             margin-left: 32px;
@@ -103,5 +101,6 @@ ul li a {
     }
 }
 
-
-.theme-bg-color {}
+.theme-bg-color {
+    background-color: #a80000 !important;
+}
