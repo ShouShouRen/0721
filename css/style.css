@@ -96,6 +96,10 @@
   margin: 0 auto;
 }
 
+.carousel-item {
+  height: 100vh;
+}
+
 ul li a {
   color: #efefee;
   -webkit-transition: all .3s !important;
