@@ -105,7 +105,9 @@
 .bg-fileter {
     backdrop-filter: blur(10px);
 }
-
+.bg-darks{
+    background-color: rgba(0, 0, 0, 0.55);
+}
 .theme-bg-color {
     background-color: #a80000 !important;
 }
@@ -113,7 +115,9 @@
 .text-green {
     color: #9bffee;
 }
-
+.text-justify{
+    text-align: justify;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
