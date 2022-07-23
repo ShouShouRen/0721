@@ -129,6 +129,10 @@
   background-color: #a80000 !important;
 }
 
+.text-theme {
+  color: #a80000;
+}
+
 .text-green {
   color: #9bffee;
 }
@@ -197,8 +201,10 @@ ul li a {
 }
 
 p {
+  font-size: 18px;
   letter-spacing: 6px;
   line-height: 1.6em;
+  text-shadow: -2px 3px 8px #333;
 }
 
 @media (max-width: 1300px) {
@@ -354,10 +360,15 @@ p {
 }
 
 #history {
-  background-image: url("../img/Historys.jpg");
+  background-image: url("../img/History.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#history .history_title {
+  color: #fefefe;
+  text-shadow: 5px 5px 10px #d8d8d8;
 }
 
 #gotop {
