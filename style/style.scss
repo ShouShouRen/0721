@@ -133,20 +133,10 @@ p {
         .about_para {
             color: #ffa93a;
             text-shadow: -2px 3px 8px #333;
-        }
-
+        }        
     }
     .about_item{
-        padding: 1.2em;
-    }
-    .raised-block{
-        transition: all .5s ease;
-        box-shadow: -2px -2px 8px #d8d8d8;
-        background-position:  center center;
-        background-size: cover;
-        &:hover {
-            box-shadow: -5px -10px 15px #a4a4a4;
-        }
+        box-shadow: 10px 10px 15px #a4a4a4;
     }
 }
 
@@ -159,4 +149,23 @@ p {
     &:hover{
         color: #fa0;
     }
+}
+
+#gotop {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    text-align: center;
+    line-height: 40px;
+    /* display: none; */
+    transition: all .5s ease-in-out;
+}
+
+#gotop a {
+    color: #fff;
 }
