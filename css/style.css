@@ -147,8 +147,8 @@
 }
 
 .hero {
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 25vh;
+  padding-bottom: 25vh;
 }
 
 @media (max-width: 768px) {
