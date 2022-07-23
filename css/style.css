@@ -141,6 +141,20 @@
   letter-spacing: 4px;
 }
 
+.vertical {
+  border-left: 6px solid #9bffee;
+  border-radius: 4px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+}
+
+@media (max-width: 992px) {
+  .vertical {
+    display: none;
+  }
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
