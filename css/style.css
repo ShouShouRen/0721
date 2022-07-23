@@ -172,18 +172,10 @@ nav {
   transition: all .5s ease;
 }
 
-img {
-  height: 100%;
-}
-
 ul li a {
   color: #efefee;
   -webkit-transition: all .3s !important;
   transition: all .3s !important;
-}
-
-section {
-  height: 100vh;
 }
 
 p {
@@ -273,6 +265,13 @@ p {
   width: 100%;
 }
 
+#about {
+  background-image: url("../img/Abouts.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 #about .bg-about {
   background: fixed;
   background-image: url("../img/A.jpg");
@@ -289,13 +288,39 @@ p {
 }
 
 #about .bg-about .about_para {
-  color: #ffa93a;
   text-shadow: -2px 3px 8px #333;
 }
 
 #about .about_item {
   -webkit-box-shadow: 10px 10px 15px #a4a4a4;
           box-shadow: 10px 10px 15px #a4a4a4;
+}
+
+@media (max-width: 992px) {
+  #about .about_item {
+    margin-top: 24px;
+  }
+}
+
+#about .about_item h3 {
+  color: #fefefe;
+  text-shadow: 5px 5px 10px #d8d8d8;
+}
+
+#about .about_item ul {
+  text-shadow: -2px 3px 8px #333;
+}
+
+#about .about_item.bgi-1 {
+  background-image: url("../img/A-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#about .about_item.bgi-2 {
+  background-image: url("../img/A-2.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .fa-circle-up {
@@ -308,6 +333,13 @@ p {
 
 .fa-circle-up:hover {
   color: #fa0;
+}
+
+#history {
+  background-image: url("../img/Historys.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #gotop {

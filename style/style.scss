@@ -12,18 +12,15 @@ nav {
     transition: all .5s ease;
 }
 
-img {
-    height: 100%;
-}
 
 ul li a {
     color: #efefee;
     transition: all .3s !important;
 }
 
-section {
-    height: 100vh;
-}
+// section {
+//     height: 100%;
+// }
 
 p {
     letter-spacing: 6px;
@@ -80,9 +77,6 @@ p {
     }
 }
 
-
-
-
 .navbar-light {
     .navbar-nav {
         .nav-item {
@@ -117,6 +111,11 @@ p {
 }
 
 #about {
+    background-image: url("../img/Abouts.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
     .bg-about {
         background: fixed;
         background-image: url("../img/A.jpg");
@@ -131,24 +130,56 @@ p {
         }
 
         .about_para {
-            color: #ffa93a;
             text-shadow: -2px 3px 8px #333;
-        }        
+        }
     }
-    .about_item{
+
+    .about_item {
         box-shadow: 10px 10px 15px #a4a4a4;
+
+        @media (max-width: 992px) {
+            margin-top: 24px;
+        }
+
+        h3 {
+            color: #fefefe;
+            text-shadow: 5px 5px 10px #d8d8d8;
+        }
+        ul{
+            text-shadow: -2px 3px 8px #333;
+        }
+
+        &.bgi-1 {
+            background-image: url("../img/A-1.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        &.bgi-2 {
+            background-image: url("../img/A-2.jpg");
+            background-position: center;
+            background-size: cover;
+        }
     }
 }
 
-.fa-circle-up{
+.fa-circle-up {
     position: fixed;
     bottom: 15px;
     right: 15px;
     font-size: 48px;
     color: #e04;
-    &:hover{
+
+    &:hover {
         color: #fa0;
     }
+}
+
+#history{
+    background-image: url("../img/Historys.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #gotop {
