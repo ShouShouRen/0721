@@ -167,6 +167,10 @@
   position: relative;
 }
 
+img {
+  width: 100%;
+}
+
 nav {
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
