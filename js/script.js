@@ -9,6 +9,16 @@ $(document).ready(function () {
             $("nav").removeClass("bg-filter");
         }
     });
+    $(window).scroll(function () {
+        if ($(window).width() < 768) {
+            $("#navbarNav a").click(function () {
+                $("#navbarNav").collapse('hide');
+            });
+            $(window).scroll(function () {
+                $("#navbarNav").collapse('hide');
+            });
+        }
+    })
 });
 
 $("#gotop").click(function () {

@@ -347,6 +347,13 @@ p {
   background-size: cover;
 }
 
+#news {
+  background-image: url("../img/Abouts.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .fa-circle-up {
   position: fixed;
   bottom: 15px;
