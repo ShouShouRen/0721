@@ -417,14 +417,29 @@ p {
   }
 }
 
-#shop img {
+#shop .img-round {
   border-radius: 50%;
   -webkit-transition: all .4s ease-in;
   transition: all .4s ease-in;
 }
 
-#shop .row .col-lg-3:hover img {
+#shop .row .col-lg-3:hover .img-round {
   border-radius: 0%;
+}
+
+#shop .form-control {
+  width: 50%;
+}
+
+#shop i {
+  cursor: pointer;
+  color: #9bffee;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+}
+
+#shop i:hover {
+  color: #333;
 }
 
 #gotop {
@@ -438,7 +453,6 @@ p {
   bottom: 15px;
   text-align: center;
   line-height: 40px;
-  /* display: none; */
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
