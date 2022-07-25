@@ -239,6 +239,9 @@ p {
 }
 
 #shop {
+    &.hero{
+        padding-top: 150px;
+    }
     .img-round {
         border-radius: 50%;
         transition: all .4s ease-in;
