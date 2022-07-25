@@ -235,10 +235,10 @@ p {
     img{
         border-radius: 50%;
         transition: all .4s ease-in;
-    .row .col    &:hover{
+    }
+    .row .col-lg-3:hover img{
             border-radius: 0%;
         }
-    }
 }
 #gotop {
     width: 50px;

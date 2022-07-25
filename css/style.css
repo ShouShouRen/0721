@@ -423,7 +423,7 @@ p {
   transition: all .4s ease-in;
 }
 
-.row .col #shop img:hover {
+#shop .row .col-lg-3:hover img {
   border-radius: 0%;
 }
 
