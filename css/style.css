@@ -382,6 +382,15 @@ p {
   text-shadow: 5px 5px 10px #d8d8d8;
 }
 
+#news.hero {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+#news .row:last-child {
+  padding-top: 120px;
+}
+
 #news .card {
   -webkit-transition: all .4s ease;
   transition: all .4s ease;

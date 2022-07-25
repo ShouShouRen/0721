@@ -205,6 +205,13 @@ p {
 }
 
 #news {
+    &.hero{
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+    .row:last-child{
+        padding-top: 120px;
+    }
     .card{
         transition: all .4s ease;
     }
