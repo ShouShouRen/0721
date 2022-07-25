@@ -460,6 +460,7 @@ p {
   background-image: url("../img/Fs.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 #gotop {
