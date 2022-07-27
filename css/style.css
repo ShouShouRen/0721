@@ -458,10 +458,26 @@ p {
 }
 
 #service {
-  background-image: url("../img/Fs.jpg");
+  color: #fefefe;
+  background-image: url("../img/Fso.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+#service .info_box {
+  padding: 50px;
+}
+
+#service .service_box {
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 50px;
+}
+
+#service .service_box input {
+  width: 50%;
 }
 
 #gotop {

@@ -274,10 +274,23 @@ p {
     }
 }
 #service{
-    background-image: url("../img/Fs.jpg");
+    color: #fefefe;
+    background-image: url("../img/Fso.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    .info_box{
+        padding: 50px;
+    }
+    .service_box{
+        background: rgba(0,0,0,0.5);
+        backdrop-filter: blur(10px);
+        padding: 50px;
+        input{
+            width: 50%;
+        }
+    }
+
 }
 #gotop {
     width: 50px;
