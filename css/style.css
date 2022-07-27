@@ -230,6 +230,7 @@ p {
 }
 
 .carousel-item .carousel-caption.item-2 {
+  height: 40%;
   top: 20em;
   right: 15%;
   bottom: 1.25rem;
