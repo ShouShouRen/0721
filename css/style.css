@@ -378,7 +378,7 @@ p {
 }
 
 #history .history_title {
-  color: #fefefe;
+  color: #333;
   text-shadow: 5px 5px 10px #d8d8d8;
 }
 
@@ -387,12 +387,12 @@ p {
 }
 
 #news.hero {
-  padding-top: 120px;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
 #news .row:last-child {
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 #news .card {
