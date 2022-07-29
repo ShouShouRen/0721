@@ -301,55 +301,21 @@ p {
   background-size: cover;
 }
 
-#about .bg-about {
-  background: fixed;
-  background-image: url("../img/A.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-box-shadow: 10px 10px 15px #a4a4a4;
-          box-shadow: 10px 10px 15px #a4a4a4;
+#about.hero {
+  padding-top: 140px;
+  padding-bottom: 140px;
 }
 
-#about .bg-about .about_title {
-  color: #fefefe;
-  text-shadow: 5px 5px 10px #d8d8d8;
+#about .round50 {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
 }
 
-#about .bg-about .about_para {
-  text-shadow: -2px 3px 8px #333;
-}
-
-#about .about_item {
-  -webkit-box-shadow: 10px 10px 15px #a4a4a4;
-          box-shadow: 10px 10px 15px #a4a4a4;
-}
-
-@media (max-width: 992px) {
-  #about .about_item {
-    margin-top: 24px;
-  }
-}
-
-#about .about_item h3 {
-  color: #fefefe;
-  text-shadow: 5px 5px 10px #d8d8d8;
-}
-
-#about .about_item ul {
-  text-shadow: -2px 3px 8px #333;
-}
-
-#about .about_item.bgi-1 {
-  background-image: url("../img/A-1.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
-#about .about_item.bgi-2 {
-  background-image: url("../img/A-2.jpg");
-  background-position: center;
-  background-size: cover;
+#about .about_intro {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 #news {
