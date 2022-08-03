@@ -208,7 +208,6 @@ p {
   font-size: 18px;
   letter-spacing: 6px;
   line-height: 1.6em;
-  text-shadow: -2px 3px 8px #333;
 }
 
 @media (max-width: 1300px) {
@@ -295,15 +294,15 @@ p {
 }
 
 #about {
-  background-image: url("../img/Abouts.jpg");
+  background-image: url("../img/testbg.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
 }
 
 #about.hero {
   padding-top: 140px;
-  padding-bottom: 140px;
+  padding-bottom: 100px;
 }
 
 #about .round50 {
@@ -319,7 +318,6 @@ p {
 }
 
 #news {
-  background-image: url("../img/newsbannersss.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -337,6 +335,16 @@ p {
   color: #fa0;
 }
 
+#del {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#del i {
+  font-size: 98px;
+  color: #4d4b4b;
+}
+
 #history {
   background-attachment: fixed;
   background-size: cover;
@@ -350,6 +358,12 @@ p {
 
 #history p {
   font-size: 22px;
+}
+
+#news {
+  background-image: url("../img/about.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #news.hero {

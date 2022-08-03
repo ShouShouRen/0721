@@ -31,7 +31,7 @@ p {
     font-size: 18px;
     letter-spacing: 6px;
     line-height: 1.6em;
-    text-shadow: -2px 3px 8px #333;
+    // text-shadow: -2px 3px 8px #333;
 }
 
 #carouselExampleIndicators {
@@ -119,14 +119,14 @@ p {
 }
 
 #about {
-    background-image: url("../img/Abouts.jpg");
+    background-image: url("../img/testbg.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     // height: 100vh;
     &.hero{
         padding-top: 140px;
-        padding-bottom: 140px;
+        padding-bottom: 100px;
     }
 
     // .bg-about {
@@ -176,6 +176,8 @@ p {
     //     }
     // }
 
+
+
     .round50{
         height: 500px;
         width: 500px;
@@ -191,7 +193,7 @@ p {
 }
 
 #news {
-    background-image: url("../img/newsbannersss.jpg");
+    // background-image: url("../img/newsbannersss.jpg");
     // background-color: #;
     background-repeat: no-repeat;
     background-position: center;
@@ -210,13 +212,22 @@ p {
         color: #fa0;
     }
 }
+#del{
+    // background-image: url(../img/del.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    i{
+        font-size: 98px;
+        color: #4d4b4b;
+    }
+
+}
 
 #history {
     // background-image: url("../img/History.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-
     .history_title {
         color: #333;
         text-shadow: 5px 5px 10px #d8d8d8;
@@ -227,6 +238,9 @@ p {
 }
 
 #news {
+    background-image: url("../img/about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     &.hero {
         padding-top: 60px;
         padding-bottom: 60px;
