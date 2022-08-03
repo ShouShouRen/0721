@@ -43,7 +43,6 @@ p {
 .carousel-item {
     .carousel-caption {
         width: 40%;
-        height: 35%;
         position: absolute;
         inset: 0;
 
@@ -53,7 +52,6 @@ p {
         }
 
         &.item-2 {
-            height: 40%;
             top: 20em;
             right: 15%;
             bottom: 1.25rem;

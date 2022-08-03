@@ -104,6 +104,10 @@
   border-radius: 44px;
 }
 
+.ml {
+  margin-left: 20rem;
+}
+
 .bg-grey {
   background-color: #CFD2CF;
 }
@@ -218,7 +222,6 @@ p {
 
 .carousel-item .carousel-caption {
   width: 40%;
-  height: 35%;
   position: absolute;
   inset: 0;
 }
@@ -229,7 +232,6 @@ p {
 }
 
 .carousel-item .carousel-caption.item-2 {
-  height: 40%;
   top: 20em;
   right: 15%;
   bottom: 1.25rem;
