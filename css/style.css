@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --animate-duration: 1.5s;
   --animate-delay: 1s;
@@ -179,8 +180,8 @@
 
 @media (max-width: 768px) {
   .hero {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
@@ -302,8 +303,14 @@ p {
   background-size: 100%;
 }
 
+@media (max-width: 992px) {
+  #about {
+    background: none;
+  }
+}
+
 #about.hero {
-  padding-top: 140px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -415,7 +422,7 @@ p {
 }
 
 #shop .row .col-lg-3:hover .img-round {
-  border-radius: 0%;
+  border-radius: 10%;
 }
 
 #shop .form-control {
@@ -444,7 +451,7 @@ p {
 
 #service {
   color: #fefefe;
-  background-image: url("../img/Fso.jpg");
+  background-image: url("../img/Situation情境00005.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -463,11 +470,6 @@ p {
 
 #service .service_box input {
   width: 50%;
-}
-
-#service i {
-  font-size: 1.2rem;
-  padding: 8px;
 }
 
 #gotop {
